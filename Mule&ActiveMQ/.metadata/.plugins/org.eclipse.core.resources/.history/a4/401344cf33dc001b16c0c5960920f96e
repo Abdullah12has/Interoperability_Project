@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:jms="http://www.mulesoft.org/schema/mule/jms" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd">
+	<jms:config name="JMS_Config" doc:name="JMS Config" doc:id="4fff8728-7a35-4813-b13e-6ff290ac4017" >
+		<jms:active-mq-connection >
+			<jms:factory-configuration brokerUrl="tcp://localhost/61616">
+				<jms:trusted-packages />
+			</jms:factory-configuration>
+		</jms:active-mq-connection>
+	</jms:config>
+	<flow name="finalproject_activemqFlow" doc:id="4a71805a-7823-42cb-936e-631f703c7efd" >
+		<jms:listener doc:name="On New Message" doc:id="18cc5687-46f2-41f8-b00e-f281d524dbb5" config-ref="JMS_Config" destination="queue1"/>
+		<logger level="INFO" doc:name="Logger" doc:id="bc172ad6-3007-4cc1-9d69-9221c60c2107" message="#[payload]"/>
+	</flow>
+</mule>

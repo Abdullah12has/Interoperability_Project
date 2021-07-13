@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns:jms="http://www.mulesoft.org/schema/mule/jms"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
+	<jms:config name="JMS_Config" doc:name="JMS Config" doc:id="4fff8728-7a35-4813-b13e-6ff290ac4017" >
+		<jms:active-mq-connection >
+			<jms:factory-configuration brokerUrl="tcp://localhost:61616">
+				<jms:trusted-packages />
+			</jms:factory-configuration>
+		</jms:active-mq-connection>
+	</jms:config>
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="40a4de80-d112-4593-a157-e76eb9c505d5">
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<jms:config name="JMS_Config1" doc:name="JMS Config" doc:id="aca6c844-8f3f-41a8-be04-92e9edf16e91" >
+		<jms:active-mq-connection >
+			<jms:factory-configuration brokerUrl="tcp://localhost:61616" />
+		</jms:active-mq-connection>
+	</jms:config>
+	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="6da036bd-00c0-4da4-ac43-5cae158a330f" basePath="/api/speaker" >
+		<http:request-connection host="localhost" port="8083" />
+	</http:request-config>
+	<http:request-config name="HTTP_Request_configuration2" doc:name="HTTP Request configuration" doc:id="f734c289-a88e-4a9f-991c-9ad32803bd45" basePath="/api/lecture">
+		<http:request-connection host="localhost" port="8083" />
+	</http:request-config>
+	<http:request-config name="HTTP_Request_configuration1" doc:name="HTTP Request configuration" doc:id="1e5c8d01-3d34-4700-bb9b-4577bd3852eb" basePath="/api/lecture">
+		<http:request-connection host="localhost" port="8083" />
+	</http:request-config>
+	<flow name="Messenger_ActiveMQ" doc:id="4a71805a-7823-42cb-936e-631f703c7efd" >
+		<jms:listener doc:name="On New Message" doc:id="9fc67587-b0ab-4a85-8814-9a5d9b19c84c" config-ref="JMS_Config" destination="queue1" />
+		<logger level="INFO" doc:name="Logger" doc:id="bc172ad6-3007-4cc1-9d69-9221c60c2107" message="#[payload]"/>
+		<file:write doc:name="logger1" doc:id="f1204e08-e2c6-44b9-ace3-f81dfc13188d" path="C:\Users\abdul\Desktop\javaProject\finalproject_activemq\data1.txt" mode="APPEND"/>
+	</flow>
+	<flow name="Show_all_speakers" doc:id="d8463aec-dad8-4022-a4d8-042be2d79ce3">
+		<http:listener doc:name="Listener" allowedMethods="GET" doc:id="ff118868-2f6c-4840-a3ea-dcaa23f3dada" config-ref="HTTP_Listener_config" path="/speaker/" />
+		<http:request method="GET" doc:name="Request" doc:id="0b27b835-a7ab-4e83-943c-d4be74b52481" config-ref="HTTP_Request_configuration" path="/">
+			<http:query-params><![CDATA[#[output application/java
+---
+{
+	id : message.attributes.queryParams['id']
+}]]]></http:query-params>
+		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="ce3219ae-732c-49d9-b99d-4a2c820bd677" message="#[payload]" />
+		<file:write doc:name="logger2" doc:id="aab29bf3-4107-4f16-b2b7-39b31127658f" path="C:\Users\abdul\Desktop\javaProject\finalproject_activemq\data2.txt" mode="APPEND" >
+			<file:content ><![CDATA[#[payload + ""]]]></file:content>
+		</file:write>
+	</flow>
+	<flow name="Show_all_lectures" doc:id="d39758d3-1612-4bfb-aca4-35b087b82682" >
+		<http:listener doc:name="Listener" doc:id="9ee0c613-1952-437e-a4f3-ccfc03fc12f5" allowedMethods="GET" config-ref="HTTP_Listener_config" path="/lecture/all" />
+		<http:request method="GET" doc:name="Request" doc:id="43a3ef77-68ec-4604-8b9d-491112e56672" config-ref="HTTP_Request_configuration2" path="/" >
+			<http:query-params ><![CDATA[#[output application/java
+---
+{
+	id : message.attributes.queryParams['id']
+}]]]></http:query-params>
+		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="dcd84379-e06f-4d37-8fb1-d28f17d8d37a" message="#[payload]" />
+		<file:write doc:name="logger3" doc:id="45fb0437-548a-4b4d-8198-4004ac9b65dd" path="C:\Users\abdul\Desktop\javaProject\finalproject_activemq\data2.txt" mode="APPEND" >
+			<file:content ><![CDATA[#[payload + ""]]]></file:content>
+		</file:write>
+	</flow>
+	<flow name="LectureByID" doc:id="ba2161a3-945e-47a1-b302-06d52d25a96f" >
+		<http:listener doc:name="Listener" doc:id="ddd40fc6-3a2d-4928-abcf-e768e7d21f9f" allowedMethods="GET" config-ref="HTTP_Listener_config" path="/lecture/1"/>
+		<set-variable value='#[attributes.queryParams.idp]' doc:name="Set Variable" doc:id="5c023607-22c9-480c-ac9d-ddc1b3df1fcc" variableName="idp"/>
+		<http:request method="GET" doc:name="RequestLectureByID" doc:id="9149ddb2-b7fe-4502-8495-df55e95b43ec" config-ref="HTTP_Request_configuration1" path="/1">
+		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="2ac4f9ce-a846-4ce7-a8d7-c02883c15772" message="#[payload]"/>
+		<file:write doc:name="Write" doc:id="cac634ff-11b6-4f49-88e1-e80b77901a55" path="C:\Users\abdul\Desktop\javaProject\finalproject_activemq\data2.txt">
+			<file:content ><![CDATA[#[payload + '']]]></file:content>
+		</file:write>
+	</flow>
+	<flow name="POST___NewLecture" doc:id="33f0bd09-8685-41be-97b0-6a2841ad587a" >
+		<http:listener doc:name="Listener" doc:id="225b1a4f-3ce0-4d06-aa69-ebf4f6d61d1d" allowedMethods="POST" config-ref="HTTP_Listener_config" path="/lecture/"/>
+		<http:request method="POST" doc:name="Request" doc:id="9d58a1a3-5d6d-429d-9781-401ab30d734b" config-ref="HTTP_Request_configuration2" path="/"/>
+		<logger level="INFO" doc:name="Logger" doc:id="f8de32f7-2de6-475a-b653-68eb6e991698" message="#[payload]"/>
+		<file:write doc:name="Write" doc:id="3aaaed32-66bf-4c8b-8dbf-de5f8303e8eb" path="C:\Users\abdul\Desktop\javaProject\finalproject_activemq\data2.txt" mode="APPEND"/>
+	</flow>
+	<flow name="Delete___Lecture" doc:id="78d91820-f950-4cee-ae83-e2d5c54c64f5" >
+		<http:listener doc:name="Listener" doc:id="47822135-6cc3-4ac9-b5fd-f5f69f7af425" allowedMethods="DELETE" config-ref="HTTP_Listener_config" path="/lecture/{id}"/>
+		<http:request method="DELETE" doc:name="Request" doc:id="49bf537e-5d9f-4c91-89bb-794544b65e2d" config-ref="HTTP_Request_configuration2" path="/{id}"/>
+		<logger level="INFO" doc:name="Logger" doc:id="fd657db4-abcd-4842-a8b3-da1b90302a7a" message="#[payload]"/>
+		<file:write doc:name="writeDEl" doc:id="18c02c2d-7d4f-4778-b594-c9f6e55b0719" path="C:\Users\abdul\Desktop\javaProject\finalproject_activemq\data2.txt" mode="APPEND" />
+	</flow>
+	<flow name="Update___Lecture" doc:id="801b6000-7495-4f5b-9ac2-b238a6158be2" >
+		<http:listener doc:name="Listener" doc:id="b7615b49-4e5f-41bf-bda1-6152351896bb" config-ref="HTTP_Listener_config" path="/lecutre/update/" allowedMethods="PUT" />
+		<set-variable value="#[message.attributes.queryParams.idp]" doc:name="Set Variable" doc:id="04c1d092-6b8f-464c-9e3b-3dcf1b3519e2" variableName="idp" />
+		<http:request method="PUT" doc:name="Update__by_ID" doc:id="52c61870-1252-448a-a180-fa4f079326d3" config-ref="HTTP_Request_configuration1" url="#['http://localhost:8083/api/lecture/' ++ vars.idp]" />
+		<logger level="INFO" doc:name="Logger" doc:id="fe1b0574-905c-4b06-92ec-c647a10e6409" message="#[payload]" />
+		<file:write doc:name="Copy_of_Write" doc:id="c7743645-3f2d-47a9-afaf-7c754b6a61b6" path="C:\Users\abdul\Desktop\javaProject\finalproject_activemq\data2.txt" >
+			<file:content ><![CDATA[#[payload + '']]]></file:content>
+		</file:write>
+	</flow>
+</mule>

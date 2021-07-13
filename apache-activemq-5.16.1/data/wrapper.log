@@ -1,0 +1,1432 @@
+STATUS | wrapper  | 2021/04/20 17:18:56 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/04/20 17:18:56 | Launching a JVM...
+INFO   | jvm 1    | 2021/04/20 17:18:59 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/04/20 17:18:59 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/04/20 17:18:59 | 
+INFO   | jvm 1    | 2021/04/20 17:18:59 | 
+INFO   | jvm 1    | 2021/04/20 17:18:59 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/04/20 17:18:59 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/04/20 17:18:59 |           could not be loaded:
+INFO   | jvm 1    | 2021/04/20 17:18:59 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/04/20 17:18:59 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/04/20 17:18:59 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/04/20 17:18:59 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/04/20 17:18:59 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/04/20 17:18:59 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/04/20 17:18:59 |           Reported cause:
+INFO   | jvm 1    | 2021/04/20 17:18:59 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/04/20 17:18:59 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/04/20 17:18:59 | 
+INFO   | jvm 1    | 2021/04/20 17:18:59 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/04/20 17:18:59 |   Heap sizes: current=15872k  free=13897k  max=1013632k
+INFO   | jvm 1    | 2021/04/20 17:18:59 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=mbdFNFfmboUOKyab -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=14244 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/04/20 17:18:59 | Extensions classpath:
+INFO   | jvm 1    | 2021/04/20 17:18:59 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/04/20 17:18:59 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/04/20 17:18:59 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/04/20 17:18:59 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/04/20 17:18:59 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/04/20 17:18:59 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/04/20 17:19:00 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6b6081: startup date [Tue Apr 20 17:19:00 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/04/20 17:19:03 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/04/20 17:19:03 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/04/20 17:19:03 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-63220-1618931943448-0:1) is starting
+INFO   | jvm 1    | 2021/04/20 17:19:03 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/20 17:19:03 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/04/20 17:19:03 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/20 17:19:04 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/04/20 17:19:04 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/20 17:19:04 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/04/20 17:19:04 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/20 17:19:04 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/04/20 17:19:04 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/04/20 17:19:04 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/04/20 17:19:04 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@84fb0d{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/04/20 17:19:05 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/20 17:19:05 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/04/20 17:19:05 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-63220-1618931943448-0:1) started
+INFO   | jvm 1    | 2021/04/20 17:19:05 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/04/20 17:19:08 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/04/20 17:19:09 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/04/20 17:21:07 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-63220-1618931943448-0:1) is shutting down
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-63220-1618931943448-0:1) uptime 2 minutes
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-63220-1618931943448-0:1) is shutdown
+INFO   | jvm 1    | 2021/04/20 17:21:08 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@6b6081: startup date [Tue Apr 20 17:19:00 CEST 2021]; root of context hierarchy
+STATUS | wrapper  | 2021/04/20 17:21:08 | <-- Wrapper Stopped
+STATUS | wrapper  | 2021/04/22 18:23:54 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/04/22 18:23:54 | Launching a JVM...
+INFO   | jvm 1    | 2021/04/22 18:23:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/04/22 18:23:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/04/22 18:23:56 | 
+INFO   | jvm 1    | 2021/04/22 18:23:56 | 
+INFO   | jvm 1    | 2021/04/22 18:23:56 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/04/22 18:23:56 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/04/22 18:23:56 |           could not be loaded:
+INFO   | jvm 1    | 2021/04/22 18:23:56 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/04/22 18:23:56 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/04/22 18:23:56 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/04/22 18:23:56 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/04/22 18:23:56 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/04/22 18:23:56 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/04/22 18:23:56 |           Reported cause:
+INFO   | jvm 1    | 2021/04/22 18:23:56 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/04/22 18:23:56 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/04/22 18:23:56 | 
+INFO   | jvm 1    | 2021/04/22 18:23:57 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/04/22 18:23:57 |   Heap sizes: current=15872k  free=13851k  max=1013632k
+INFO   | jvm 1    | 2021/04/22 18:23:57 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=zhbYH_8QbI0cKSrR -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=15720 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/04/22 18:23:57 | Extensions classpath:
+INFO   | jvm 1    | 2021/04/22 18:23:57 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/04/22 18:23:57 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/04/22 18:23:57 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/04/22 18:23:57 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/04/22 18:23:57 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/04/22 18:23:57 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/04/22 18:23:57 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@183b2c1: startup date [Thu Apr 22 18:23:57 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/04/22 18:23:59 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/04/22 18:23:59 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/04/22 18:23:59 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-55028-1619108639981-0:1) is starting
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@13e3979{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/04/22 18:24:00 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-55028-1619108639981-0:1) started
+INFO   | jvm 1    | 2021/04/22 18:24:01 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/04/22 18:24:02 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/04/22 18:24:02 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/05/06 15:51:20 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/05/06 15:51:20 | Launching a JVM...
+INFO   | jvm 1    | 2021/05/06 15:51:21 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/05/06 15:51:21 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/05/06 15:51:21 | 
+INFO   | jvm 1    | 2021/05/06 15:51:21 | 
+INFO   | jvm 1    | 2021/05/06 15:51:21 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/05/06 15:51:21 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/05/06 15:51:21 |           could not be loaded:
+INFO   | jvm 1    | 2021/05/06 15:51:21 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/05/06 15:51:21 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/05/06 15:51:21 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/05/06 15:51:21 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/05/06 15:51:21 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/05/06 15:51:21 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/05/06 15:51:21 |           Reported cause:
+INFO   | jvm 1    | 2021/05/06 15:51:21 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/05/06 15:51:21 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/05/06 15:51:21 | 
+INFO   | jvm 1    | 2021/05/06 15:51:21 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/05/06 15:51:21 |   Heap sizes: current=15872k  free=13860k  max=1013632k
+INFO   | jvm 1    | 2021/05/06 15:51:21 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=PV2jlATxQTn2ZJae -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11592 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/05/06 15:51:21 | Extensions classpath:
+INFO   | jvm 1    | 2021/05/06 15:51:21 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/05/06 15:51:21 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/05/06 15:51:21 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/05/06 15:51:21 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/05/06 15:51:21 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/05/06 15:51:21 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/05/06 15:51:21 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Thu May 06 15:51:21 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-57476-1620309082636-0:1) is starting
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/05/06 15:51:22 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/05/06 15:51:23 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/05/06 15:51:23 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@16c2b96{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/05/06 15:51:23 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 15:51:23 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/05/06 15:51:23 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-57476-1620309082636-0:1) started
+INFO   | jvm 1    | 2021/05/06 15:51:23 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/05/06 15:51:24 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/05/06 15:51:24 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/05/06 16:07:24 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-57476-1620309082636-0:1) is shutting down
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-57476-1620309082636-0:1) uptime 16 minutes
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-57476-1620309082636-0:1) is shutdown
+INFO   | jvm 1    | 2021/05/06 16:07:25 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Thu May 06 15:51:21 CEST 2021]; root of context hierarchy
+STATUS | wrapper  | 2021/05/06 16:07:26 | <-- Wrapper Stopped
+STATUS | wrapper  | 2021/05/06 16:07:48 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/05/06 16:07:48 | Launching a JVM...
+INFO   | jvm 1    | 2021/05/06 16:07:49 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/05/06 16:07:49 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/05/06 16:07:49 | 
+INFO   | jvm 1    | 2021/05/06 16:07:49 | 
+INFO   | jvm 1    | 2021/05/06 16:07:49 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/05/06 16:07:49 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/05/06 16:07:49 |           could not be loaded:
+INFO   | jvm 1    | 2021/05/06 16:07:49 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/05/06 16:07:49 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/05/06 16:07:49 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/05/06 16:07:49 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/05/06 16:07:49 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/05/06 16:07:49 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/05/06 16:07:49 |           Reported cause:
+INFO   | jvm 1    | 2021/05/06 16:07:49 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/05/06 16:07:49 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/05/06 16:07:49 | 
+INFO   | jvm 1    | 2021/05/06 16:07:49 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/05/06 16:07:49 |   Heap sizes: current=15872k  free=13871k  max=1013632k
+INFO   | jvm 1    | 2021/05/06 16:07:49 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=qsfCylB18jROhmEx -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=19624 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/05/06 16:07:49 | Extensions classpath:
+INFO   | jvm 1    | 2021/05/06 16:07:49 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/05/06 16:07:49 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/05/06 16:07:49 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/05/06 16:07:49 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/05/06 16:07:49 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/05/06 16:07:49 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/05/06 16:07:49 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1d0a1a0: startup date [Thu May 06 16:07:49 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/05/06 16:07:50 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/05/06 16:07:50 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/05/06 16:07:50 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-57633-1620310070942-0:1) is starting
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@1bfd82f{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-57633-1620310070942-0:1) started
+INFO   | jvm 1    | 2021/05/06 16:07:51 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/05/06 16:07:52 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/05/06 16:07:52 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/05/11 17:05:05 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/05/11 17:05:05 | Launching a JVM...
+INFO   | jvm 1    | 2021/05/11 17:05:12 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/05/11 17:05:12 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/05/11 17:05:12 | 
+INFO   | jvm 1    | 2021/05/11 17:05:12 | 
+INFO   | jvm 1    | 2021/05/11 17:05:12 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/05/11 17:05:12 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/05/11 17:05:12 |           could not be loaded:
+INFO   | jvm 1    | 2021/05/11 17:05:12 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/05/11 17:05:12 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/05/11 17:05:12 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/05/11 17:05:12 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/05/11 17:05:12 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/05/11 17:05:12 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/05/11 17:05:12 |           Reported cause:
+INFO   | jvm 1    | 2021/05/11 17:05:12 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/05/11 17:05:12 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/05/11 17:05:12 | 
+INFO   | jvm 1    | 2021/05/11 17:05:13 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/05/11 17:05:13 |   Heap sizes: current=15872k  free=13852k  max=1013632k
+INFO   | jvm 1    | 2021/05/11 17:05:13 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=RJJNhwSnvK7EAXEN -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=23168 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/05/11 17:05:13 | Extensions classpath:
+INFO   | jvm 1    | 2021/05/11 17:05:13 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/05/11 17:05:13 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/05/11 17:05:13 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/05/11 17:05:13 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/05/11 17:05:13 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/05/11 17:05:14 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/05/11 17:05:15 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@183b2c1: startup date [Tue May 11 17:05:15 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/05/11 17:05:20 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/05/11 17:05:21 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/05/11 17:05:21 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/05/11 17:05:21 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-55980-1620745521212-0:1) is starting
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/05/11 17:05:22 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/05/11 17:05:23 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@16ef60d{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/05/11 17:05:24 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/05/11 17:05:24 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/05/11 17:05:24 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-55980-1620745521212-0:1) started
+INFO   | jvm 1    | 2021/05/11 17:05:24 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/05/11 17:05:28 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/05/11 17:05:28 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2021/05/11 17:29:35 |  INFO | Connector vm://localhost started
+STATUS | wrapper  | 2021/07/03 14:42:51 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 14:42:51 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 14:42:52 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 14:42:52 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 14:42:52 | 
+INFO   | jvm 1    | 2021/07/03 14:42:52 | 
+INFO   | jvm 1    | 2021/07/03 14:42:52 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 14:42:52 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 14:42:52 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 14:42:52 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 14:42:52 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 14:42:52 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 14:42:52 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 14:42:52 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 14:42:52 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 14:42:52 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 14:42:52 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 14:42:52 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 14:42:52 | 
+INFO   | jvm 1    | 2021/07/03 14:42:52 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 14:42:52 |   Heap sizes: current=15872k  free=13489k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 14:42:52 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=f9PRvjS4W2Vixaor -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=8372 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 14:42:52 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 14:42:52 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 14:42:52 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 14:42:52 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 14:42:52 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 14:42:52 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 14:42:52 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 14:42:52 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Sat Jul 03 14:42:52 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-50461-1625316174198-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 14:42:54 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@1245627{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 14:42:55 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:42:55 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 14:42:55 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-50461-1625316174198-0:1) started
+INFO   | jvm 1    | 2021/07/03 14:42:55 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 14:42:55 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 14:42:55 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/03 14:43:07 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 14:43:07 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 14:43:08 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 14:43:08 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 14:43:08 | 
+INFO   | jvm 1    | 2021/07/03 14:43:08 | 
+INFO   | jvm 1    | 2021/07/03 14:43:08 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 14:43:08 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 14:43:08 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 14:43:08 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 14:43:08 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 14:43:08 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 14:43:08 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 14:43:08 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 14:43:08 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 14:43:08 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 14:43:08 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 14:43:08 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 14:43:08 | 
+INFO   | jvm 1    | 2021/07/03 14:43:08 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 14:43:08 |   Heap sizes: current=15872k  free=13489k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 14:43:08 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=k9Il4Scv3sklq7RL -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=22428 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 14:43:08 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 14:43:08 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 14:43:08 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 14:43:08 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 14:43:08 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 14:43:08 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 14:43:08 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 14:43:08 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1d0a1a0: startup date [Sat Jul 03 14:43:08 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-52888-1625316190581-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 14:43:10 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 14:43:11 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 14:43:11 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@6d1fed{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 14:43:11 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 14:43:11 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 14:43:11 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-52888-1625316190581-0:1) started
+INFO   | jvm 1    | 2021/07/03 14:43:11 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 14:43:12 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 14:43:12 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/03 16:32:42 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 16:32:42 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 16:32:43 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 16:32:43 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 16:32:43 | 
+INFO   | jvm 1    | 2021/07/03 16:32:43 | 
+INFO   | jvm 1    | 2021/07/03 16:32:43 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 16:32:43 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 16:32:43 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 16:32:43 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 16:32:43 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 16:32:43 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 16:32:43 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 16:32:43 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 16:32:43 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 16:32:43 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 16:32:43 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 16:32:43 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 16:32:43 | 
+INFO   | jvm 1    | 2021/07/03 16:32:43 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 16:32:43 |   Heap sizes: current=15872k  free=13488k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 16:32:43 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=se2EEaZ_bqXexs_V -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=21500 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 16:32:43 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 16:32:43 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 16:32:43 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 16:32:43 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 16:32:43 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 16:32:43 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 16:32:44 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 16:32:44 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1d0a1a0: startup date [Sat Jul 03 16:32:44 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-60113-1625322765463-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 16:32:45 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 16:32:46 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@6d1fed{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 16:32:46 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:32:46 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 16:32:46 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-60113-1625322765463-0:1) started
+INFO   | jvm 1    | 2021/07/03 16:32:46 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 16:32:47 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 16:32:47 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2021/07/03 16:34:15 |  WARN | Transport Connection to: tcp://127.0.0.1:62154 failed: java.io.IOException: Frame size of 1 GB larger than max allowed 100 MB
+INFO   | jvm 1    | 2021/07/03 16:34:16 |  WARN | Transport Connection to: tcp://127.0.0.1:56033 failed: java.io.IOException: Frame size of 1 GB larger than max allowed 100 MB
+STATUS | wrapper  | 2021/07/03 16:35:23 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 16:35:23 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 16:35:24 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 16:35:24 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 16:35:24 | 
+INFO   | jvm 1    | 2021/07/03 16:35:24 | 
+INFO   | jvm 1    | 2021/07/03 16:35:24 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 16:35:24 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 16:35:24 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 16:35:24 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 16:35:24 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 16:35:24 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 16:35:24 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 16:35:24 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 16:35:24 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 16:35:24 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 16:35:24 |             C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 16:35:24 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 16:35:24 | 
+INFO   | jvm 1    | 2021/07/03 16:35:24 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 16:35:24 |   Heap sizes: current=15872k  free=13488k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 16:35:24 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=dL2dJeKtWLEbDBKL -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=20360 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 16:35:24 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 16:35:24 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 16:35:24 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 16:35:24 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 16:35:24 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 16:35:24 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 16:35:24 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 16:35:24 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Sat Jul 03 16:35:24 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | PListStore:[C:\Users\abdul\Desktop\Algebra\Information Systems Interoperability (integrations)\apache-activemq-5.16.1-bin\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-62728-1625322925293-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@1245627{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-62728-1625322925293-0:1) started
+INFO   | jvm 1    | 2021/07/03 16:35:25 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 16:35:26 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 16:35:26 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/03 16:36:19 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 16:36:19 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 16:36:20 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 16:36:20 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 16:36:20 | 
+INFO   | jvm 1    | 2021/07/03 16:36:20 | 
+INFO   | jvm 1    | 2021/07/03 16:36:20 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 16:36:20 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 16:36:20 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 16:36:20 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 16:36:20 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 16:36:20 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 16:36:20 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 16:36:20 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 16:36:20 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 16:36:20 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 16:36:20 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 16:36:20 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 16:36:20 | 
+INFO   | jvm 1    | 2021/07/03 16:36:20 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 16:36:20 |   Heap sizes: current=15872k  free=13722k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 16:36:20 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=2faqeHpsUF3lIrST -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=21708 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 16:36:20 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 16:36:20 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 16:36:20 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 16:36:20 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 16:36:20 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 16:36:20 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 16:36:20 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 16:36:20 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Sat Jul 03 16:36:20 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 16:36:21 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 16:36:21 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 16:36:21 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 16:36:21 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 16:36:21 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-60571-1625322981890-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@470f3f{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-60571-1625322981890-0:1) started
+INFO   | jvm 1    | 2021/07/03 16:36:22 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 16:36:23 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 16:36:23 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2021/07/03 16:40:48 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:59693 failed: java.io.IOException: Frame size of 1 GB larger than max allowed 100 MB
+INFO   | jvm 1    | 2021/07/03 16:40:49 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:56155 failed: java.io.IOException: Frame size of 1 GB larger than max allowed 100 MB
+INFO   | jvm 1    | 2021/07/03 16:41:19 |  WARN | Transport Connection to: tcp://0:0:0:0:0:0:0:1:57743 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive (no connection attempt made) for too (>30000) long: tcp://0:0:0:0:0:0:0:1:57743
+INFO   | jvm 1    | 2021/07/03 17:00:29 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2021/07/03 17:00:49 |  WARN | /admin/purgeDestination.action
+INFO   | jvm 1    | 2021/07/03 17:00:49 | javax.servlet.ServletException: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:388)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:633)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:380)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:773)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:905)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at java.lang.Thread.run(Unknown Source)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | Caused by: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	... 17 more
+INFO   | jvm 1    | 2021/07/03 17:00:49 | Caused by: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.ServletHolder$NotAsync.service(ServletHolder.java:1452)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:791)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.ServletHandler$ChainEnd.doFilter(ServletHandler.java:1626)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:228)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:193)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1435)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1350)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	... 19 more
+INFO   | jvm 1    | 2021/07/03 17:00:49 | Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:353)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1160)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:940)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+INFO   | jvm 1    | 2021/07/03 17:00:49 | 	... 54 more
+INFO   | jvm 1    | 2021/07/03 17:36:23 |  INFO | Connector vm://localhost stopped
+STATUS | wrapper  | 2021/07/03 20:15:29 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 20:15:29 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 20:15:30 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 20:15:30 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 20:15:30 | 
+INFO   | jvm 1    | 2021/07/03 20:15:30 | 
+INFO   | jvm 1    | 2021/07/03 20:15:30 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 20:15:30 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 20:15:30 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 20:15:30 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 20:15:30 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 20:15:30 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 20:15:30 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 20:15:30 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 20:15:30 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 20:15:30 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 20:15:30 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 20:15:30 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 20:15:30 | 
+INFO   | jvm 1    | 2021/07/03 20:15:30 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 20:15:30 |   Heap sizes: current=15872k  free=13635k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 20:15:30 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=gpR1lhXs9Cj8X5ab -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11928 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 20:15:30 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 20:15:30 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 20:15:30 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 20:15:30 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 20:15:30 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 20:15:30 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 20:15:30 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 20:15:30 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Sat Jul 03 20:15:30 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Recovering from the journal @1:45481
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Recovery replayed 2 operations from the journal in 0.022 seconds.
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-63605-1625336131568-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 20:15:31 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 20:15:32 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@d3b3fc{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 20:15:32 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:15:32 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 20:15:32 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-63605-1625336131568-0:1) started
+INFO   | jvm 1    | 2021/07/03 20:15:32 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 20:15:32 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 20:15:32 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/03 20:19:53 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 20:19:53 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 20:19:54 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 20:19:54 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 20:19:54 | 
+INFO   | jvm 1    | 2021/07/03 20:19:54 | 
+INFO   | jvm 1    | 2021/07/03 20:19:54 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 20:19:54 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 20:19:54 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 20:19:54 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 20:19:54 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 20:19:54 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 20:19:54 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 20:19:54 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 20:19:54 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 20:19:54 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 20:19:54 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 20:19:54 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 20:19:54 | 
+INFO   | jvm 1    | 2021/07/03 20:19:54 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 20:19:54 |   Heap sizes: current=15872k  free=13643k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 20:19:54 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=kRByj0VYOI_Tsklu -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=22364 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 20:19:54 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 20:19:54 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 20:19:54 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 20:19:54 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 20:19:54 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 20:19:54 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 20:19:55 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 20:19:55 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Sat Jul 03 20:19:55 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 20:20:00 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 20:20:00 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 20:20:00 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 20:20:00 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 20:20:00 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 20:20:00 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-55622-1625336400539-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 20:20:01 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 20:20:02 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@15838e3{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 20:20:02 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:20:02 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 20:20:02 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-55622-1625336400539-0:1) started
+INFO   | jvm 1    | 2021/07/03 20:20:03 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 20:20:05 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 20:20:05 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/03 20:28:40 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 20:28:40 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 20:28:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 20:28:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 20:28:41 | 
+INFO   | jvm 1    | 2021/07/03 20:28:41 | 
+INFO   | jvm 1    | 2021/07/03 20:28:41 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 20:28:41 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 20:28:41 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 20:28:41 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 20:28:41 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 20:28:41 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 20:28:41 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 20:28:41 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 20:28:41 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 20:28:41 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 20:28:41 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 20:28:41 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 20:28:41 | 
+INFO   | jvm 1    | 2021/07/03 20:28:41 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 20:28:41 |   Heap sizes: current=15872k  free=13635k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 20:28:41 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=Eb2UVZoNFzHRabCq -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=16564 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 20:28:41 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 20:28:41 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 20:28:41 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 20:28:41 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 20:28:41 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 20:28:41 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 20:28:41 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 20:28:41 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1d0a1a0: startup date [Sat Jul 03 20:28:41 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-59285-1625336922654-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 20:28:42 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 20:28:43 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@1d71fa9{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 20:28:43 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:28:43 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 20:28:43 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-59285-1625336922654-0:1) started
+INFO   | jvm 1    | 2021/07/03 20:28:43 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 20:28:43 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 20:28:43 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/03 20:35:37 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 20:35:38 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 20:35:38 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 20:35:38 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 20:35:38 | 
+INFO   | jvm 1    | 2021/07/03 20:35:38 | 
+INFO   | jvm 1    | 2021/07/03 20:35:38 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 20:35:38 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 20:35:38 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 20:35:38 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 20:35:38 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 20:35:38 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 20:35:38 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 20:35:38 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 20:35:38 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 20:35:38 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 20:35:38 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 20:35:38 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 20:35:38 | 
+INFO   | jvm 1    | 2021/07/03 20:35:38 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 20:35:38 |   Heap sizes: current=15872k  free=13639k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 20:35:38 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=KdoZxsWgXEw1EdU2 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9380 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 20:35:38 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 20:35:38 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 20:35:38 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 20:35:38 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 20:35:38 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 20:35:38 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 20:35:38 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 20:35:38 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1d0a1a0: startup date [Sat Jul 03 20:35:38 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 20:35:39 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 20:35:39 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 20:35:39 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 20:35:39 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 20:35:39 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 20:35:39 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-62244-1625337339780-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@1d46039{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-62244-1625337339780-0:1) started
+INFO   | jvm 1    | 2021/07/03 20:35:40 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 20:35:41 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 20:35:41 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/03 21:06:03 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 21:06:04 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 21:06:09 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 21:06:09 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 21:06:10 | 
+INFO   | jvm 1    | 2021/07/03 21:06:10 | 
+INFO   | jvm 1    | 2021/07/03 21:06:10 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 21:06:10 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 21:06:10 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 21:06:11 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 21:06:15 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 21:06:15 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 21:06:15 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 21:06:15 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 21:06:15 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 21:06:15 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 21:06:15 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 21:06:15 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 21:06:15 | 
+INFO   | jvm 1    | 2021/07/03 21:06:15 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 21:06:15 |   Heap sizes: current=15872k  free=13725k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 21:06:15 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=aYpUF8D9HUW8vb7T -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=12916 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 21:06:16 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 21:06:16 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 21:06:16 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 21:06:16 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 21:06:16 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 21:06:16 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 21:06:16 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 21:06:16 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@183b2c1: startup date [Sat Jul 03 21:06:16 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 21:06:18 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 21:06:19 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 21:06:19 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 21:06:19 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 21:06:19 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 21:06:19 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-63757-1625339179201-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 21:06:20 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 21:06:20 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 21:06:20 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 21:06:20 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 21:06:20 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 21:06:20 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 21:06:20 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 21:06:20 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 21:06:20 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 21:06:21 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 21:06:24 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@4b9825{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 21:06:24 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 21:06:24 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 21:06:24 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-63757-1625339179201-0:1) started
+INFO   | jvm 1    | 2021/07/03 21:06:25 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 21:06:27 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 21:06:27 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2021/07/03 21:23:15 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2021/07/03 21:56:27 |  INFO | Connector vm://localhost stopped
+STATUS | wrapper  | 2021/07/03 22:12:25 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 22:12:25 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 22:12:26 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 22:12:26 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 22:12:26 | 
+INFO   | jvm 1    | 2021/07/03 22:12:26 | 
+INFO   | jvm 1    | 2021/07/03 22:12:26 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 22:12:26 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 22:12:26 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 22:12:26 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 22:12:26 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 22:12:26 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 22:12:26 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 22:12:26 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 22:12:26 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 22:12:26 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 22:12:26 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 22:12:26 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 22:12:26 | 
+INFO   | jvm 1    | 2021/07/03 22:12:26 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 22:12:26 |   Heap sizes: current=15872k  free=13720k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 22:12:26 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=jsPVxWNmPqJMyMIO -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=5372 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 22:12:26 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 22:12:26 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 22:12:26 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 22:12:26 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 22:12:26 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 22:12:26 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 22:12:26 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 22:12:26 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Sat Jul 03 22:12:26 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-53080-1625343147359-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 22:12:27 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@15838e3{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 22:12:28 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:12:28 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 22:12:28 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-53080-1625343147359-0:1) started
+INFO   | jvm 1    | 2021/07/03 22:12:28 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 22:12:28 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 22:12:28 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/03 22:44:10 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 22:44:10 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 22:44:10 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 22:44:10 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 22:44:10 | 
+INFO   | jvm 1    | 2021/07/03 22:44:10 | 
+INFO   | jvm 1    | 2021/07/03 22:44:10 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 22:44:10 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 22:44:10 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 22:44:10 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 22:44:10 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 22:44:10 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 22:44:10 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 22:44:10 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 22:44:10 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 22:44:10 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 22:44:10 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 22:44:10 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 22:44:10 | 
+INFO   | jvm 1    | 2021/07/03 22:44:11 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 22:44:11 |   Heap sizes: current=15872k  free=13715k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 22:44:11 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=oDgybWH9MlwBvSaC -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7556 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 22:44:11 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 22:44:11 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 22:44:11 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 22:44:11 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 22:44:11 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 22:44:11 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 22:44:11 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 22:44:11 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1d0a1a0: startup date [Sat Jul 03 22:44:11 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-59435-1625345052171-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@5788e5{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-59435-1625345052171-0:1) started
+INFO   | jvm 1    | 2021/07/03 22:44:12 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 22:44:13 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 22:44:13 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/03 23:33:04 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/03 23:33:04 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/03 23:33:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/03 23:33:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/03 23:33:05 | 
+INFO   | jvm 1    | 2021/07/03 23:33:05 | 
+INFO   | jvm 1    | 2021/07/03 23:33:05 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/03 23:33:05 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/03 23:33:05 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/03 23:33:05 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/03 23:33:05 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/03 23:33:05 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/03 23:33:05 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/03 23:33:05 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/03 23:33:05 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/03 23:33:05 |           Reported cause:
+INFO   | jvm 1    | 2021/07/03 23:33:05 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/03 23:33:05 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/03 23:33:05 | 
+INFO   | jvm 1    | 2021/07/03 23:33:05 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/03 23:33:05 |   Heap sizes: current=15872k  free=13722k  max=1013632k
+INFO   | jvm 1    | 2021/07/03 23:33:05 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=EobVj36ejxsOg7Sa -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=6776 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/03 23:33:05 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/03 23:33:05 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/03 23:33:05 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/03 23:33:05 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/03 23:33:05 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/03 23:33:05 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/03 23:33:05 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/03 23:33:05 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Sat Jul 03 23:33:05 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/03 23:33:06 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/03 23:33:06 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/03 23:33:06 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/03 23:33:06 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/03 23:33:06 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-53008-1625347986806-0:1) is starting
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@15838e3{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-53008-1625347986806-0:1) started
+INFO   | jvm 1    | 2021/07/03 23:33:07 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/03 23:33:08 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/03 23:33:08 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/04 19:06:12 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/04 19:06:12 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/04 19:06:13 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/04 19:06:13 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/04 19:06:13 | 
+INFO   | jvm 1    | 2021/07/04 19:06:13 | 
+INFO   | jvm 1    | 2021/07/04 19:06:13 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/04 19:06:13 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/04 19:06:13 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/04 19:06:13 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/04 19:06:13 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/04 19:06:13 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/04 19:06:13 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/04 19:06:13 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/04 19:06:13 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/04 19:06:13 |           Reported cause:
+INFO   | jvm 1    | 2021/07/04 19:06:13 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/04 19:06:13 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/04 19:06:13 | 
+INFO   | jvm 1    | 2021/07/04 19:06:13 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/04 19:06:13 |   Heap sizes: current=15872k  free=13639k  max=1013632k
+INFO   | jvm 1    | 2021/07/04 19:06:13 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=B5HADd15xAJLRH6o -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3548 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/04 19:06:13 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/04 19:06:13 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/04 19:06:13 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/04 19:06:13 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/04 19:06:13 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/04 19:06:13 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/04 19:06:13 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/04 19:06:13 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1d0a1a0: startup date [Sun Jul 04 19:06:13 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/04 19:06:14 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-55335-1625418374991-0:1) is starting
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@5788e5{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-55335-1625418374991-0:1) started
+INFO   | jvm 1    | 2021/07/04 19:06:15 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/04 19:06:16 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/04 19:06:16 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/04 19:50:01 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/04 19:50:02 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/04 19:50:02 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/04 19:50:02 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/04 19:50:02 | 
+INFO   | jvm 1    | 2021/07/04 19:50:02 | 
+INFO   | jvm 1    | 2021/07/04 19:50:02 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/04 19:50:02 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/04 19:50:02 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/04 19:50:02 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/04 19:50:02 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/04 19:50:02 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/04 19:50:02 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/04 19:50:02 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/04 19:50:02 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/04 19:50:02 |           Reported cause:
+INFO   | jvm 1    | 2021/07/04 19:50:02 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/04 19:50:02 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/04 19:50:02 | 
+INFO   | jvm 1    | 2021/07/04 19:50:02 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/04 19:50:02 |   Heap sizes: current=15872k  free=13640k  max=1013632k
+INFO   | jvm 1    | 2021/07/04 19:50:02 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=2VDIRK75AaZ6UQZR -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=19816 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/04 19:50:02 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/04 19:50:02 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/04 19:50:02 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/04 19:50:02 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/04 19:50:02 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/04 19:50:02 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/04 19:50:03 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/04 19:50:03 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Sun Jul 04 19:50:02 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/04 19:50:03 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/04 19:50:03 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/04 19:50:03 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/04 19:50:03 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/04 19:50:03 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-59707-1625421003914-0:1) is starting
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@15838e3{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-59707-1625421003914-0:1) started
+INFO   | jvm 1    | 2021/07/04 19:50:04 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/04 19:50:05 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/04 19:50:05 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2021/07/04 19:53:29 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2021/07/04 19:53:37 |  INFO | Removing message queue1(ID:DESKTOP-I0LB6LS-60995-1625421198322-1:1:1:1:1)
+STATUS | wrapper  | 2021/07/06 02:18:50 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/06 02:18:50 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/06 02:18:51 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/06 02:18:51 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/06 02:18:51 | 
+INFO   | jvm 1    | 2021/07/06 02:18:51 | 
+INFO   | jvm 1    | 2021/07/06 02:18:51 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/06 02:18:51 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/06 02:18:51 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/06 02:18:51 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/06 02:18:51 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/06 02:18:51 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/06 02:18:51 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/06 02:18:51 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/06 02:18:51 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/06 02:18:51 |           Reported cause:
+INFO   | jvm 1    | 2021/07/06 02:18:51 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/06 02:18:51 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/06 02:18:51 | 
+INFO   | jvm 1    | 2021/07/06 02:18:51 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/06 02:18:51 |   Heap sizes: current=15872k  free=13560k  max=1013632k
+INFO   | jvm 1    | 2021/07/06 02:18:51 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=Fe2bbJgpAYu8GW23 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9524 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/06 02:18:51 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/06 02:18:51 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/06 02:18:51 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/06 02:18:51 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/06 02:18:51 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/06 02:18:51 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/06 02:18:51 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/06 02:18:52 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Tue Jul 06 02:18:51 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-64463-1625530733100-0:1) is starting
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@d6f5c0{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-64463-1625530733100-0:1) started
+INFO   | jvm 1    | 2021/07/06 02:18:53 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/06 02:18:54 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/06 02:18:54 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/06 18:07:49 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/06 18:07:49 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/06 18:07:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/06 18:07:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/06 18:07:50 | 
+INFO   | jvm 1    | 2021/07/06 18:07:50 | 
+INFO   | jvm 1    | 2021/07/06 18:07:50 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/06 18:07:50 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/06 18:07:50 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/06 18:07:50 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/06 18:07:50 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/06 18:07:50 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/06 18:07:50 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/06 18:07:50 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/06 18:07:50 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/06 18:07:50 |           Reported cause:
+INFO   | jvm 1    | 2021/07/06 18:07:50 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/06 18:07:50 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/06 18:07:50 | 
+INFO   | jvm 1    | 2021/07/06 18:07:50 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/06 18:07:50 |   Heap sizes: current=15872k  free=14122k  max=1013632k
+INFO   | jvm 1    | 2021/07/06 18:07:50 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=HEaBe1Efj94XRQB6 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=17056 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/06 18:07:50 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/06 18:07:50 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/06 18:07:50 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/06 18:07:50 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/06 18:07:50 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/06 18:07:50 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/06 18:07:51 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/06 18:07:51 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6b6081: startup date [Tue Jul 06 18:07:51 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-52838-1625587672471-0:1) is starting
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/06 18:07:52 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/06 18:07:53 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@699809{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/06 18:07:53 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 18:07:53 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/06 18:07:53 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-52838-1625587672471-0:1) started
+INFO   | jvm 1    | 2021/07/06 18:07:53 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/06 18:07:54 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/06 18:07:54 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/06 20:50:55 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/06 20:50:55 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/06 20:50:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/06 20:50:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/06 20:50:56 | 
+INFO   | jvm 1    | 2021/07/06 20:50:56 | 
+INFO   | jvm 1    | 2021/07/06 20:50:56 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/06 20:50:56 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/06 20:50:56 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/06 20:50:56 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/06 20:50:56 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/06 20:50:56 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/06 20:50:56 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/06 20:50:56 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/06 20:50:56 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/06 20:50:56 |           Reported cause:
+INFO   | jvm 1    | 2021/07/06 20:50:56 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/06 20:50:56 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/06 20:50:56 | 
+INFO   | jvm 1    | 2021/07/06 20:50:56 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/06 20:50:56 |   Heap sizes: current=15872k  free=13932k  max=1013632k
+INFO   | jvm 1    | 2021/07/06 20:50:56 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=LeU7qkK7pOMkcKPv -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=2612 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/06 20:50:56 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/06 20:50:56 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/06 20:50:56 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/06 20:50:56 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/06 20:50:56 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/06 20:50:56 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/06 20:50:56 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/06 20:50:56 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Tue Jul 06 20:50:56 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-57461-1625597457496-0:1) is starting
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/06 20:50:57 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/06 20:50:58 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@d6f5c0{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/06 20:50:58 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/06 20:50:58 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/06 20:50:58 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-57461-1625597457496-0:1) started
+INFO   | jvm 1    | 2021/07/06 20:50:58 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/06 20:50:58 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/06 20:50:58 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/07 11:13:48 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/07 11:13:48 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/07 11:13:49 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/07 11:13:49 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/07 11:13:49 | 
+INFO   | jvm 1    | 2021/07/07 11:13:49 | 
+INFO   | jvm 1    | 2021/07/07 11:13:49 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/07 11:13:49 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/07 11:13:49 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/07 11:13:49 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/07 11:13:49 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/07 11:13:49 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/07 11:13:49 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/07 11:13:49 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/07 11:13:49 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/07 11:13:49 |           Reported cause:
+INFO   | jvm 1    | 2021/07/07 11:13:49 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/07 11:13:49 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/07 11:13:49 | 
+INFO   | jvm 1    | 2021/07/07 11:13:49 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/07 11:13:49 |   Heap sizes: current=15872k  free=13854k  max=1013632k
+INFO   | jvm 1    | 2021/07/07 11:13:49 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=PRqNL_Y5VxZHXSgg -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=12560 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/07 11:13:49 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/07 11:13:49 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/07 11:13:49 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/07 11:13:49 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/07 11:13:49 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/07 11:13:49 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/07 11:13:49 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/07 11:13:49 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Wed Jul 07 11:13:49 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/07 11:13:50 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/07 11:13:50 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/07 11:13:50 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/07 11:13:50 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/07 11:13:50 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-60803-1625649230890-0:1) is starting
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@d6f5c0{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-60803-1625649230890-0:1) started
+INFO   | jvm 1    | 2021/07/07 11:13:51 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/07 11:13:52 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/07 11:13:52 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2021/07/07 18:39:19 | --> Wrapper Started as Console
+STATUS | wrapper  | 2021/07/07 18:39:20 | Launching a JVM...
+INFO   | jvm 1    | 2021/07/07 18:39:21 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2021/07/07 18:39:21 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2021/07/07 18:39:21 | 
+INFO   | jvm 1    | 2021/07/07 18:39:21 | 
+INFO   | jvm 1    | 2021/07/07 18:39:21 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2021/07/07 18:39:21 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2021/07/07 18:39:21 |           could not be loaded:
+INFO   | jvm 1    | 2021/07/07 18:39:21 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2021/07/07 18:39:21 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2021/07/07 18:39:21 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2021/07/07 18:39:21 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2021/07/07 18:39:21 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2021/07/07 18:39:21 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2021/07/07 18:39:21 |           Reported cause:
+INFO   | jvm 1    | 2021/07/07 18:39:21 |             C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2021/07/07 18:39:21 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2021/07/07 18:39:21 | 
+INFO   | jvm 1    | 2021/07/07 18:39:21 | Java Runtime: Oracle Corporation 1.8.0_261 C:\Program Files (x86)\Java\jre1.8.0_261
+INFO   | jvm 1    | 2021/07/07 18:39:21 |   Heap sizes: current=15872k  free=13761k  max=1013632k
+INFO   | jvm 1    | 2021/07/07 18:39:21 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=P4V7uh0AYepu9Vqx -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9908 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2021/07/07 18:39:21 | Extensions classpath:
+INFO   | jvm 1    | 2021/07/07 18:39:21 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2021/07/07 18:39:21 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2021/07/07 18:39:21 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2021/07/07 18:39:21 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2021/07/07 18:39:21 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2021/07/07 18:39:21 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2021/07/07 18:39:21 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@eaae97: startup date [Wed Jul 07 18:39:21 CEST 2021]; root of context hierarchy
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | PListStore:[C:\Users\abdul\Desktop\javaProject\apache-activemq-5.16.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-60839-1625675963112-0:1) is starting
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Listening for connections at: tcp://DESKTOP-I0LB6LS:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Listening for connections at: amqp://DESKTOP-I0LB6LS:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Listening for connections at: stomp://DESKTOP-I0LB6LS:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Listening for connections at: mqtt://DESKTOP-I0LB6LS:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2021/07/07 18:39:23 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@15838e3{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2021/07/07 18:39:24 |  INFO | Listening for connections at ws://DESKTOP-I0LB6LS:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2021/07/07 18:39:24 |  INFO | Connector ws started
+INFO   | jvm 1    | 2021/07/07 18:39:24 |  INFO | Apache ActiveMQ 5.16.1 (localhost, ID:DESKTOP-I0LB6LS-60839-1625675963112-0:1) started
+INFO   | jvm 1    | 2021/07/07 18:39:24 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2021/07/07 18:39:25 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2021/07/07 18:39:25 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2021/07/07 18:51:28 |  INFO | Connector vm://localhost started

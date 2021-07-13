@@ -1,0 +1,9 @@
+Enter some text here for the message body...The lecture The Movie Handler is accepted!The lecture: Lecture{id=4, speaker=Speaker{id=3, name=rtrtr, position=MID, createdAt=Sat Jul 03 21:29:35 CEST 2021}, title=ascsdc, contents=aaaaaaaaaaaaa, type=WORKSHOP, publish=false, createdAt=Sat Jul 03 21:29:35 CEST 2021} is added! 
+The lecture: Lecture{id=5, speaker=Speaker{id=4, name=blaaaaaaaaaaaaa, position=JUNIOR, createdAt=Sat Jul 03 21:30:12 CEST 2021}, title=ascsdc, contents=aaaaaaaaaaaaaaaaaaaasssssssssssssssssssss, type=PRESENTATION, publish=false, createdAt=Sat Jul 03 21:30:12 CEST 2021} is added! 
+The speaker: 3 is deleted! 
+The Lecture: Optional[Lecture{id=1, speaker=Speaker{id=1, name=John Doe, position=MID, createdAt=2018-11-10 00:00:00.0}, title=Something, contents=Something something, type=PRESENTATION, publish=true, createdAt=2018-11-10 00:00:00.0}] is Fetched! 
+The speaker: Optional[Speaker{id=2, name=Jane Doe, position=SENIOR, createdAt=2018-11-10 00:00:00.0}] is Fetched! 
+The speaker: Speaker{id=1, name=hello Doenddd, position=MID, createdAt=Sun Nov 10 00:00:00 CET 2019} is Updated! 
+The Lecture: Optional[Lecture{id=1, speaker=Speaker{id=1, name=hello Doenddd, position=MID, createdAt=2019-11-10 00:00:00.0}, title=Something, contents=Something something, type=PRESENTATION, publish=true, createdAt=2018-11-10 00:00:00.0}] is Fetched! 
+The lecture: Lecture{id=4, speaker=Speaker{id=3, name=rtrtr, position=MID, createdAt=Sat Jul 03 22:50:18 CEST 2021}, title=ascsdc, contents=ddddddddddddddddddddddd, type=PRESENTATION, publish=false, createdAt=Sat Jul 03 22:50:18 CEST 2021} is added! 
+The Lecture: Optional[Lecture{id=1, speaker=Speaker{id=1, name=hello Doenddd, position=MID, createdAt=2019-11-10 00:00:00.0}, title=Sddddddddddddng, contents=Something something, type=PRESENTATION, publish=true, createdAt=2018-11-10 00:00:00.0}] is Fetched! 

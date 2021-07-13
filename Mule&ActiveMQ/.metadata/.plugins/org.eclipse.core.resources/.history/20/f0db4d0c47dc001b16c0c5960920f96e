@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns:jms="http://www.mulesoft.org/schema/mule/jms"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd">
+	<jms:config name="JMS_Config" doc:name="JMS Config" doc:id="4fff8728-7a35-4813-b13e-6ff290ac4017" >
+		<jms:active-mq-connection >
+			<jms:factory-configuration brokerUrl="tcp://localhost:61616">
+				<jms:trusted-packages />
+			</jms:factory-configuration>
+		</jms:active-mq-connection>
+	</jms:config>
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="40a4de80-d112-4593-a157-e76eb9c505d5" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<jms:config name="JMS_Config1" doc:name="JMS Config" doc:id="aca6c844-8f3f-41a8-be04-92e9edf16e91" >
+		<jms:active-mq-connection >
+			<jms:factory-configuration brokerUrl="tcp://localhost:61616" />
+		</jms:active-mq-connection>
+	</jms:config>
+	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="6da036bd-00c0-4da4-ac43-5cae158a330f" basePath="/api/speaker" >
+		<http:request-connection host="localhost" port="8083" />
+	</http:request-config>
+	<flow name="Messenger_ActiveMQ" doc:id="4a71805a-7823-42cb-936e-631f703c7efd" >
+		<jms:listener doc:name="On New Message" doc:id="9fc67587-b0ab-4a85-8814-9a5d9b19c84c" config-ref="JMS_Config" destination="queue1" />
+		<logger level="INFO" doc:name="Logger" doc:id="bc172ad6-3007-4cc1-9d69-9221c60c2107" message="#[payload]"/>
+		<file:write doc:name="logger1" doc:id="f1204e08-e2c6-44b9-ace3-f81dfc13188d" path="C:\Users\abdul\Desktop\javaProject\finalproject_activemq\data1.txt" mode="APPEND"/>
+	</flow>
+	<flow name="REST_API__Browser" doc:id="d8463aec-dad8-4022-a4d8-042be2d79ce3" >
+		<http:listener doc:name="Listener" doc:id="ff118868-2f6c-4840-a3ea-dcaa23f3dada" config-ref="HTTP_Listener_config" path="/"/>
+		<http:request method="GET" doc:name="Request" doc:id="0b27b835-a7ab-4e83-943c-d4be74b52481" config-ref="HTTP_Request_configuration" path="/">
+			<http:query-params ><![CDATA[#[output application/java
+---
+{
+	id : message.attributes.queryParams['id']
+}]]]></http:query-params>
+		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="ce3219ae-732c-49d9-b99d-4a2c820bd677" message="#[payload]"/>
+		<file:write doc:name="logger2" doc:id="2f54aad5-8f01-451d-8d8b-3b8903858687" path="C:\Users\abdul\Desktop\javaProject\finalproject_activemq\data2.txt" mode="APPEND"/>
+	</flow>
+</mule>
